@@ -1,0 +1,133 @@
+.wtf-module {
+	width: 290px;
+	height: 178px;
+	background-color: #fff;
+	float: left;
+}
+
+.flex-module-inner, .flex-module-footer {
+color: #8899a6;
+font-size: 12px;
+}
+
+.account-summary {
+position: relative;
+display: block;
+min-height: 48px;
+}
+.wtf-module .account-summary .content {
+min-height: 48px;
+}
+.account-summary .content {
+margin-left: 58px;
+margin-right: 20px;
+}
+.account-summary .account-group, .account-summary .account-action {
+display: block;
+line-height: 16px;
+}
+.account-summary .avatar {
+position: absolute;
+top: 0;
+left: 0;
+}
+.avatar {
+width: 48px;
+height: 48px;
+border-radius: 5px;
+-moz-force-broken-image-icon: 1;
+}
+.account-summary .account-group-inner {
+display: block;
+width: 100%;
+}
+.account-summary .account-group-inner, .account-summary .metadata {
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+.flex-module-inner .fullname {
+font-size: 13px;
+}
+.fullname {
+font-weight: bold;
+color: #292f33;
+}
+.account-group .Icon--verified {
+margin-left: 3px;
+position: relative;
+top: 2px;
+}
+.Icon--verified {
+color: #88c9f9;
+}
+.Icon--small {
+font-size: 16px;
+line-height: 15px;
+}
+
+.btn {
+background-color: #ccd6dd;
+background-repeat: no-repeat;
+border: 1px solid #e1e8ed;
+border-radius: 4px;
+color: #66757f;
+cursor: pointer;
+display: inline-block;
+font-size: 14px;
+font-weight: bold;
+line-height: normal;
+padding: 8px 16px;
+position: relative;
+background-color: #f5f8fa;
+background-image: linear-gradient(#fff,#f5f8fa);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#f5f8fa)"
+}
+.small-follow-btn .Icon {
+font-size: 16px;
+line-height: 15px;
+padding-right: 2px;
+top: 2px;
+color: #55acee;
+}
+
+.follow-btn.small-follow-btn {
+margin-top: 3px;
+margin-right: 9px;
+}
+
+.btn.small {
+color: #292f33;
+font-size: 13px;
+padding: 3px 11px 5px;
+}
+
+.module ul:first-child li:first-child .list-link, .module .flex-module:first-child, .module .contrast-flex-module:first-child, .module .flex-module:last-child, .module .contrast-flex-module:last-child {
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+.footer-module {
+	width: 290px;
+	height: 104px;
+}
+
+.Footer-item {
+float: left;
+padding-right: 8px;
+}
+
+.Footer-item, .Footer-link {
+color: #8899a6;
+}
+
+.Footer-item {
+display: inline;
+}
+
+ol, ul {
+margin: 0;
+list-style: none;
+padding: 0;
+}

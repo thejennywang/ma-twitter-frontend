@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> (586) Twitter</title>
+	<link rel="shortcut icon" href="https://abs.twimg.com/favicons/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="twitter.css">
+	<link rel="stylesheet" type="text/css" href="right-dashboard.css">
+</head>
+<body>
+	<div class="topbar">
+		<div class="global-nav">
+			<div class="global-nav-inner">
+				<div class="container">
+
+					<h1 class="Icon Icon--bird bird-topbar"></h1>
+					<div class="position-fixer"></div>
+					<!-- Nav-right side begins -->
+					<div role="navigation">
+						<ul class="nav" id="global-actions">
+
+							<li id="global-nav-home" class="home active">
+								<a href="#">
+									<span class="Icon Icon--home Icon--large"></span>
+									<span class="text">Home</span>
+								</a>
+							</li>
+
+							<li class="notifications">
+								<a href="#">
+									<span class="Icon Icon--notifications Icon--large"></span> <span class="text">Notifications</span>
+								</a>
+							</li>
+
+							<li class="discover">
+								<a href="#">
+									<span class="Icon Icon--discover Icon--large"></span> <span class="text">Discover</span>
+								</a>
+							</li>
+
+							<li class="me">
+								<a href="#">
+									<span class="Icon Icon--me Icon--large"></span> <span class="text">Me</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- Nav-left side ends / Right side begins -->
+					<div class="nav-right">
+
+						<div role="search">
+							<form class="search-form">
+								<input class="search-input" type="text" id="search-query" placeholder="Search Twitter">
+								<span class="search-icon">
+									<button class="Icon Icon--search nav-search">
+									</button>
+								</span>
+							</form>
+						</div>
+
+						<ul class="nav right-actions" id="right-actions"> 
+
+							<li class="dm-nav"> 
+								<a href="#" title="Direct messages">
+									<span class="Icon Icon--dm Icon--large"></span> 
+								</a>
+							</li> 
+
+							<li class="settings"> 
+								<a href="#" title="Settings"> 
+									<span class="Icon Icon--cog Icon--large"></span>
+								</a>
+							</li>  
+
+							<li role="tweet"> 
+								<button type="button" id="new-tweet-button" class="tweet-button" title="Compose new tweet"> 
+									<span class="Icon Icon--tweet Icon--large"></span>
+								</button> 
+							</li>  
+
+						</ul>
+					</div>
+					<!-- Nav-right side ends -->
+				</div>
+			</div>
+		</div>
+	</div>	
+
+	<div id="page-container" class="AllContent">
+		<!-- Dashboard Left-->
+		<div class="dashboard dashboard-left">
+			<div class="UserProfile module">
+
+				<a class="UserProfile-bg u-bgUserColor u-block" href="/almightyjenny">
+				</a>
+
+				<div class="UserProfile-content">
+					<a class="UserProfile-avatarLink u-inlineBlock" href="#" title="Jenny Wang">
+						<img class="UserProfile-avatarImage" src="https://pbs.twimg.com/profile_images/378800000091890714/5db75cfde1dbc01eefeddc7e5d1bba40_bigger.jpeg">
+					</a>
+
+					<div class="UserProfile-userFields">
+						<div class="UserProfile-name">
+							<a class="UserProfile-name u-textInheritColor" href="#" style="color: #292f33">Jenny Wang</a>
+						</div>
+						<span class="UserProfile-screenname u-inlineBlock">
+							<a class="UserProfile-screennameLink" href="#">@<span class="u-screenname-link">almightyjenny</span></a>
+						</span>
+					</div>
+
+					<div class="UserProfile-stats">
+						<ul class="UserProfile-statList Arrange Arrange--bottom Arrange--equal">
+							<li class="UserProfile-stat Arrange-sizeFit">
+								<a class="UserProfile-statLink u-textUserColor u-linkClean u-block" href="#">
+									<span class="UserProfile-statLabel u-block">Tweets</span>
+									<span class="UserProfile-statValue">156</span>
+								</a>
+							</li>
+							<li class="UserProfile-stat Arrange-sizeFit">
+								<a class="UserProfile-statLink u-textUserColor u-linkClean u-block" href="#">
+									<span class="UserProfile-statLabel u-block">Following</span>
+									<span class="UserProfile-statValue">193</span>
+								</a>
+							</li>
+							<li class="UserProfile-stat Arrange-sizeFit">
+								<a class="UserProfile-statLink u-textUserColor u-linkClean u-block" href="#">
+									<span class="UserProfile-statLabel u-block">Followers</span>
+									<span class="UserProfile-statValue">43</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="tweet-box tweet-user
+					UserProfile-tweetbox u-bgUserColorLightest u-borderUserColorLighter">
+					<div class="tweet-content">
+						<div class="tweet-box" contenteditable="true" role="textbox" placeholder="Compose new tweet...">	</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="module trends-module">
+	<div class="module-header">
+
+	</div>
+</div>
+</div>
+
+<div class="module footer-module flex-module">
+		<div class="flex-module-inner js-items-container">
+			<ul class="u-cf">
+				<li class="Footer-item Footer-copyright copyright">© 2014 Twitter</li>
+				<li class="Footer-item"><a class="Footer-link" href="/about">About</a></li>
+				<li class="Footer-item"><a class="Footer-link" href="//support.twitter.com">Help</a></li>
+				<li class="Footer-item"><a class="Footer-link" href="/tos">Terms</a></li>
+				<li class="Footer-item"><a class="Footer-link" href="/privacy">Privacy</a></li>
+				<li class="Footer-item"><a class="Footer-link" href="//support.twitter.com/articles/20170514">Cookies</a></li>
+				<li class="Footer-item"><a class="Footer-link" href="//support.twitter.com/articles/20170451">Ads info</a></li>
+				<li class="Footer-item"><a class="Footer-link" href="//about.twitter.com/press/brand-assets">Brand</a></li>
+				<li class="Footer-item"><a class="Footer-link" href="https://blog.twitter.com">Blog</a></li>
+				<li class="Footer-item"><a class="Footer-link" href="http://status.twitter.com">Status</a></li>
+				<li class="Footer-item"><a class="Footer-link" href="https://about.twitter.com/products">Apps</a></li>
+				<li class="Footer-item"><a class="Footer-link" href="https://about.twitter.com/careers">Jobs</a></li>
+				<li class="Footer-item"><a class="Footer-link" href="//ads.twitter.com/start?ref=gl-tw-tw-twitter-advertise">Advertise</a></li>
+				<li class="Footer-item"><a class="Footer-link" href="https://business.twitter.com">Businesses</a></li>
+				<li class="Footer-item"><a class="Footer-link" href="//media.twitter.com">Media</a></li>
+				<li class="Footer-item"><a class="Footer-link" href="//dev.twitter.com">Developers</a></li>
+			</ul>
+		</div>
+<!-- End of Dashboard Left / Start of Main Content -->
+
+<div role="main" class="content-main">
+	<div class="position-fixer-2"></div>
+
+	<div class="content-header">
+		<div class="header-inner"> 
+			<h2 id="tweets-heading" class="tweets-heading">Tweets</h2>
+		</div>
+	</div>
+
+	<div class="stream-container">
+		<ol class="stream-items">  
+			<li class="tweet">
+				<div class="tweet-header">
+					<a class="account-group"> 
+						<img class="avatar" src="https://pbs.twimg.com/profile_images/3358467495/f5ea64532bd7556719e1b88ed1a6f246_bigger.jpeg">
+						<a class="full-name">Inspring Quotes</a> ‏
+						<a class="username">@ThisInspiresUs</a> 
+						<small class="time">
+							<a class="timestamp">13h</a> 
+						</small>
+					</a>
+					<p class="tweet-text">Life is not about waiting for the storm to pass, It is about learning to dance in the rain.
+					</p>
+					<div class="stream-item-footer">
+						<ul class="tweet-actions">
+							<a class="details with-icn" href="#">
+								<b>Expand</b>
+							</a>
+							<li class="action-reply-container">
+								<a role="button" class="with-icn" href="#">
+									<span class="Icon Icon--reply"></span>
+									<b>Reply</b>
+								</a>
+							</li>
+							<li class="action-rt-container">
+								<a role="button" class="with-icn retweet" href="#">
+									<span class="Icon Icon--retweet"></span>
+									<b>Retweet</b>
+								</a>
+							</a>
+						</li>
+						<li class="action-fav-container">
+							<a role="button" class="with-icn favorite js-tooltip" href="#" data-original-title="">
+								<span class="Icon Icon--favorite"></span>
+								<b>Favorite</b>
+							</a>
+						</a>
+					</li>
+					<li class="more-tweet-actions">
+						<a type="button" class="btn-link with-icn">
+							<span class="Icon Icon--dots"></span>
+							<b>More</b>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</li>
+		<li class="tweet">
+			<div class="tweet-header">
+				<a class="full-name">Inspiring Quotes</a> ‏
+				<a class="username">@ThisInspiresUs</a> 
+				<small class="time">
+					<a class="timestamp">13h</a> 
+				</small>
+			</div>
+			<p class="tweet-text">Life is not about waiting for the storm to pass, It is about learning to dance in the rain.
+			</p>
+		</li>
+		<li class="tweet">
+			<div class="tweet-header">
+				<a class="full-name">Inspiring Quotes</a> ‏
+				<a class="username">@ThisInspiresUs</a> 
+				<small class="time">
+					<a class="timestamp">13h</a> 
+				</small>
+			</div>
+			<p class="tweet-text">Life is not about waiting for the storm to pass, It is about learning to dance in the rain.
+			</p>
+		</li>
+		<li class="tweet">
+			<div class="tweet-header">
+				<span class="names">
+					<a class="full-name">Inspiring Quotes</a> ‏
+					<a class="username">@ThisInspiresUs</a> 
+				</span>
+				<small class="time">
+					<a class="timestamp">13h</a> 
+				</small>
+			</div>
+			<p class="tweet-text">Life is not about waiting for the storm to pass, It is about learning to dance in the rain.
+			</p>
+		</li>
+
+	</ol>
+</div>
+
+</div>
+
+<!-- End of Main Content / Start of Dashboard Right -->
+
+<div class="dashboard dashboard-right">
+	<div class="module wtf-module flex-module">
+		<div class="module-header">
+			<h3>Who to follow</h3>
+			<small> · </small>
+			<a href="#">Refesh</a>
+			<small> · </small>
+			<a href="#">View all
+			</div>
+			<div class="flex-module-inner">
+				<div class="account-summary">
+
+					<div class="content">
+						<a class="account-group user-thumb" href="#">
+
+							<img class="avatar" src="https://pbs.twimg.com/profile_images/2760011269/1ce0bb9e511a45cc473346bfef9408a3_normal.png">
+							<span class="account-group-inner">
+								<b class="fullname">MIT Tech Review</b><span class="Icon Icon--verified Icon--small"></span>
+
+								<span class="username"><s>@</s><span class="js-username">techre...</span></span>
+							</span>
+						</a>
+						<div class="user-actions ">
+							<button type="button" class="small-follow-btn follow-btn btn small follow-button">
+								<div class="follow-text action-text">
+									<span class="Icon Icon--follow"></span>
+									Follow
+								</div>
+								
+							</button>
+						</div>
+
+					</div>
+					<div class="account-summary">
+						<div class="content">
+							<a class="account-group user-thumb" href="#">
+
+								<img class="avatar" src="https://pbs.twimg.com/profile_images/3690657113/61f108a6b1259e0abbff39eea77a16b7_normal.png">
+								<span class="account-group-inner">
+									<b class="strong fullname">Mashable</b><span class="Icon Icon--verified Icon--small"></span>
+
+									<span class="username"><s>@</s><span class="js-username">mashab...</span></span>
+								</span>
+							</a>
+							<div class="user-actions ">
+								<button type="button" class="small-follow-btn follow-btn btn small follow-button">
+									<div class="follow-text action-text">
+										<span class="Icon Icon--follow"></span>
+										Follow
+									</div>
+
+								</button>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
